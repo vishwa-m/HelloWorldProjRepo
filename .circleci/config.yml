@@ -20,7 +20,7 @@ jobs:
       - checkout
       - run:
           name: "Say hello(hello_job)"
-          command: "echo Hello, World 123"
+          command: "echo Hello, World 001"
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/workflows/ & https://circleci.com/docs/configuration-reference/#workflows
